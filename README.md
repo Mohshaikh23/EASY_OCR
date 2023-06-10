@@ -1,52 +1,56 @@
-```bash
+
 # EASY_OCR
 #### Text Detection From Images Using EasyOCR
+
+---
 ```
 
-```bash
 JAIDED- AI(OCR Owner) uses the OCR mainly to Extract key informations from
 ID Card / Passport / Identification Document.
 Suitable to incorporate into KYC processing.
 ```
-```bash
-#### If you need to check simple text in the images you can use the OCR library available on 
-[easy_ocr](https://pypi.org/project/easyocr/).
-```
-```bash
-## 1. REQUIRED LIBRARIES - 
+---
+
+>If you need to check simple text in the images you can use the OCR library available on [easy_ocr](https://pypi.org/project/easyocr/).
+
+
+## 1. Required Libraries - 
 - Run these commands to install [pytorch](https://pytorch.org/get-started/locally/).
 
-!pip install torch torchvision torchaudio
-!pip install easyocr
+`!pip install torch torchvision torchaudio `
+
+- Run these commands to install [easy_ocr](https://pypi.org/project/easyocr/).
+
+`!pip install easyocr `
+
+- Run these commands to import Libraries
+
 ```
-```bash
 import easyocr
 import cv2
 import matplotlib.pyplot as plt
 import numpy as np
 ```
 
-```bash
+
+
 ## 2. Upload the Image from which you require text.
 
-![Image](https://github.com/Mohshaikh23/EASY_OCR/blob/main/surf.jpeg)
-```
-```bash
+>![Image](https://github.com/Mohshaikh23/EASY_OCR/blob/main/surf.jpeg)
+
 ## 3. Run the Library.
 
 Read the image using easyocr module and store the results into variable.
-```
 
-```bash
 ## 4. View the Text
 
 Use the saved result to display on the image itself to rectify.
 
-![Image](https://github.com/Mohshaikh23/EASY_OCR/blob/main/surf_with_text.png)
-```
-```bash
+>![Image](https://github.com/Mohshaikh23/EASY_OCR/blob/main/surf_with_text.png)
+
 ## 5. Use it to check for multiple text Images.
 
-![Image](https://github.com/Mohshaikh23/EASY_OCR/blob/main/sign.png)
-![Image](https://github.com/Mohshaikh23/EASY_OCR/blob/main/sign_with_text.png)
-```
+>![Image](https://github.com/Mohshaikh23/EASY_OCR/blob/main/sign.png)
+>![Image](https://github.com/Mohshaikh23/EASY_OCR/blob/main/sign_with_text.png)
+
+---
